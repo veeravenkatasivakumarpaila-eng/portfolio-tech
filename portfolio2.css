@@ -5,7 +5,100 @@ body {
     max-width: 800px;
     margin: 20px auto;
     background-color: #f9f9f9;
+    color: #333;/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
     color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
+.root-div {
+    border: 1px solid #ccc;         /* Light gray border */
+    padding: 25px 30px;             /* Padding inside the border */
+    border-radius: 20px;            /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);  /* Soft subtle shadow */
+    background-color: #fff;         /* White background */
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 25px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: 600;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    font-size: 1rem;
+}
+
+/* Link styles */
+a {
+    color: #1a0dab;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #0047ab;
+    outline: none;
+}
+
     line-height: 1.6;
 }
 
